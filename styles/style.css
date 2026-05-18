@@ -69,7 +69,7 @@ ol {
   height: 534px;
   flex-direction: row;
   align-items: flex-end;
-  gap: 30px; 
+  gap: 30px;
 }
 
 .content__details {
@@ -82,7 +82,7 @@ ol {
 
 .result {
   display: flex;
-  position: relative;  
+  position: relative;
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
@@ -119,7 +119,7 @@ ol {
   border: none;
 }
 
-.search-form__fieldset-title{
+.search-form__fieldset-title {
   color: #FFFFFF;
   font-size: 18px;
   font-weight: 400;
@@ -187,7 +187,7 @@ ol {
   gap: 30px;
 }
 
-.content__list-item { 
+.content__list-item {
   width: 100%;
   padding-left: 3px;
   padding-right: 3px;
