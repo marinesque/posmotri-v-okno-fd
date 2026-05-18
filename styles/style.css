@@ -222,6 +222,7 @@ ol {
   text-decoration: none;
   color: #FFFFFF;
   display: block;
+  cursor: pointer;
 }
 
 .content__card-link_current {
@@ -275,6 +276,7 @@ ol {
   font-weight: 700;
   min-height: 34px;
   padding: 0;
+  cursor: pointer;
 }
 
 .button:focus-visible {
