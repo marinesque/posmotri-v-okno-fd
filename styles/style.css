@@ -239,3 +239,32 @@ ol {
   font-size: 18px;
   color:#FFFFFF;
 }
+
+.button {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 1);
+  color: #FFFFFF;
+}
+
+.button:focus-visible {
+  outline: 1px solid rgba(255, 255, 255, 1);
+  outline-offset: 1px;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  color: #545050;
+  border-color: #545050;
+}
+
+.search-form__submit-button {
+  width: 194px;
+  align-self: self-end;
+}
+
+.more_button {
+  width: 100%;
+}
