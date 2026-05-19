@@ -125,6 +125,7 @@ ol {
   width: fit-content;
   gap: 5px;
   inline-size: fit-content;
+  cursor: pointer;
 }
 
 .search-form__textfield {
@@ -149,7 +150,7 @@ ol {
   outline: none;
 }
 
-.search-form__label:has(:focus-visible){
+.search-form__label:has(:focus-visible) {
   outline-offset: 1px;
   outline: 1px solid #fff;
 } 
@@ -176,9 +177,6 @@ ol {
   opacity: 1;
 }
 
-.search-form__label {
-  cursor: pointer;
-}
 
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
